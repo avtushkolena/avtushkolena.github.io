@@ -1,0 +1,17 @@
+.box1 {
+    text-align: center;
+    padding: 10px 40px;
+}
+.box2 {
+    padding: 10px 40px;
+}
+.box1, .box2 {
+    width: 500px;
+    margin: 0 auto;
+    background: white;
+    font-size: medium;
+    line-height: 25px;
+}
+body {
+    background: #E4EBEC;
+}
