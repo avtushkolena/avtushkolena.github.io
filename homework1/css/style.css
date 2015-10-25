@@ -1,3 +1,6 @@
+body {
+    background: #E4EBEC;
+}
 .box1 {
     text-align: center;
     padding: 10px 40px;
@@ -12,6 +15,14 @@
     font-size: medium;
     line-height: 25px;
 }
-body {
-    background: #E4EBEC;
+.brd1 {
+    border-bottom: 1px solid black;
+    padding: 0 0 15px 0;
+}
+.brd2 {
+    border-top: 1px solid black;
+    padding: 15px 0 0 0;
+}
+.box2 ul {
+    padding: 0 0 0 20px;
 }
