@@ -1,0 +1,155 @@
+body {
+    background: url("../img/bg4.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 0 3px 1px #555;
+}
+
+.header {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+.header .logo {
+    margin: 0 0 0 30px;
+    float: left;
+}
+
+.header .contacts {
+    float: right;
+    color: #5fa5bb;
+    padding: 10px 30px 25px 0;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.header .country {
+    float: right;
+    clear: right;
+    margin: 0 15px 10px 0;
+}
+
+.header .country li {
+    float: left;
+    width: 60px;
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+}
+
+.header .country li a {
+    color: #5fa5bb;
+   }
+.img {
+    float: left;
+    width: 100%;
+    height: 233px;
+    border: 1px solid #5fa5bb;
+    overflow: hidden;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    background-color: #363636;
+    font-size: 14px;
+    border-top: 1px solid #fff;
+}
+
+.menu ul li {
+    float: left;
+    position: relative;
+    width: 137px;
+    text-align: center;
+}
+
+.menu ul li:hover .sub{
+    display: block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    }
+.menu .sub {
+    position: absolute;
+    z-index: 99;
+    top: 34px;
+    left: 0;
+    display: none;
+    border-top: 1px solid #000000;
+}
+
+.menu .sub li {
+    float: none;
+}
+
+.menu .sub li a {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+    color: #444;
+    line-height: 20px;
+}
+.content p {
+    padding: 0 0 10px 0;
+}
+
+.content h2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 15px 0;
+    text-align: center;
+}
+.sidebar1 {
+    width: 190px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:0 10px;
+    background-color: #edeef0;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    left: 210px;
+    width: 520px;
+    height: 100%;
+    padding:0 10px;
+    background-color: #fff;
+}
+
+.sidebar2 {
+    float: left;
+    margin: 0 0 0 750px;
+    width: 190px;
+    padding:0 10px;
+    height: 100%;
+    background-color: #edeef0;
+}
+
+.footer p  {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
