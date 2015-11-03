@@ -1,5 +1,5 @@
 body {
-    background: url("../img/bg4.jpg");
+    background: url("../img/bg.jpg") top left repeat-x;
     font-family: 'Open Sans', sans-serif;
 }
 
