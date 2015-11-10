@@ -1,0 +1,195 @@
+body {
+    font-family: Tahoma, Helvetica Neue, sans-serif;
+    background: url("../img/bg.png") top center no-repeat;
+}
+
+.wrap {
+    width: 1215px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    float: right;
+    background-color: #074a87;
+}
+
+.header .menu {
+    float: right;
+}
+
+.header .reg {
+    padding: 10px 20px;
+    font-size: 14px;
+    float: right;
+    color: #ffffff;
+    margin: 0 10px;
+    border: 0 solid #085291;
+    background-image: -ms-linear-gradient(top, #50AFDC 0%, #2E7AC4 100%);
+
+    background-image: -moz-linear-gradient(top, #50AFDC 0%, #2E7AC4 100%);
+
+    background-image: -o-linear-gradient(top, #50AFDC 0%, #2E7AC4 100%);
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #50AFDC), color-stop(100, #2E7AC4));
+
+    background-image: -webkit-linear-gradient(top, #50AFDC 0%, #2E7AC4 100%);
+
+    background-image: linear-gradient(to bottom, #50AFDC 0%, #2E7AC4 100%);
+}
+
+.header .reg a{
+    color: #ffffff;
+}
+
+.header .logo {
+    float: right;
+    font-size: 14px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.header .flag {
+    float: right;
+    border-left: 1px solid #317fba;
+    padding: 6px 5px 5px 10px;
+}
+
+.header .menu li {
+    float: right;
+}
+
+.header .menu li a {
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    color: #317fba;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+}
+
+.header .menu li a:hover {
+    background-color: #4eabda;
+    color: #ffffff;
+}
+
+.popup {
+    left: 50%;
+    top: 50%;
+    width: 501px;
+    height: 620px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #cccccc;
+    text-align: center;
+    float: left;
+    margin: 204px 357px 204px 357px;
+
+}
+
+.popup .forma div {
+    padding: 10px 20px ;
+    color: #ffffff;
+    text-align: center;
+}
+
+.popup .h {
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+    font-size: 30px;
+}
+
+.popup .info {
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.popup .facebook {
+    padding: 30px 10px 10px 10px;
+}
+
+.popup .inner {
+    width: 320px;
+    float: left;
+    margin: 0 110px 10px 110px;
+}
+
+.popup .line {
+    width: 120px;
+    height: 1px;
+    background: #000;
+    float: left;
+    margin: 20px 0px;
+    border-top: 1px solid #666666;
+}
+
+.popup .inner .text {
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 14px;
+    padding: 10px;
+    float: left;
+}
+
+
+#First_name, #Last_name, #Email, #Password, #Password_Confirm {
+    width: 240px;
+    padding: 10px 20px;
+    background-color: #100f0f;
+    color: #ffffff;
+    border: 0;
+}
+
+#First_name:focus {
+    background-color: #1b5288;
+    box-shadow: 0 0 3px 1px #29B0D9;
+}
+
+#Last_name:focus {
+    background-color: #1b5288;
+    box-shadow: 0 0 3px 1px #29B0D9;
+}
+
+#Email:focus {
+    background-color: #1b5288;
+    box-shadow: 0 0 3px 1px #29B0D9;
+}
+
+#Password:focus {
+    background-color: #1b5288;
+    box-shadow: 0 0 3px 1px #29B0D9;
+}
+
+#Password_Confirm:focus {
+    background-color: #1b5288;
+    box-shadow: 0 0 3px 1px #29B0D9;
+}
+
+
+.popup .forma .submit {
+    width: 150px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #4EABDA 0%, #3686CA 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #4EABDA 0%, #3686CA 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #4EABDA 0%, #3686CA 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4EABDA), color-stop(100, #3686CA));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #4EABDA 0%, #3686CA 100%);
+
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #4EABDA 0%, #3686CA 100%);
+}
+
+
+
