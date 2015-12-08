@@ -1,12 +1,12 @@
 var arr = [];
 
 for ( var i = 0; i < 5; i++) {
-    arr[i] = prompt('Ââåäèòå èìÿ ïîëüçîâàòåëÿ');
+    arr[i] = prompt('Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¸Ğ¼Ñ Ğ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ñ');
 }
 
 console.log(arr);
 
-var userName = prompt('Ââåäèòå ñâîå èìÿ');
+var userName = prompt('Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞ²Ğ¾Ğµ Ğ¸Ğ¼Ñ');
 var flag = false;
 
 for ( var i = 0; i < arr.length; i++) {
@@ -16,7 +16,7 @@ for ( var i = 0; i < arr.length; i++) {
 }
 
 if (flag) {
-    alert(userName + 'Ëåíà, âû óñïåøíî âîøëè');
+    alert(userName + 'Ğ›ĞµĞ½Ğ°, Ğ²Ñ‹ ÑƒÑĞ¿ĞµÑˆĞ½Ğ¾ Ğ²Ğ¾ÑˆĞ»Ğ¸');
 }else {
-    alert(userName + 'Òàêîãî ïîëüçîâàòåëÿ íå ñóùåñòâóåò');
+    alert(userName + 'Ğ¢Ğ°ĞºĞ¾Ğ³Ğ¾ Ğ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»Ñ Ğ½Ğµ ÑÑƒÑ‰ĞµÑÑ‚Ğ²ÑƒĞµÑ‚');
 }
