@@ -75,15 +75,13 @@ body {
 }
 
 .popup {
-    left: 50%;
-    top: 50%;
     width: 501px;
     height: 620px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #cccccc;
     text-align: center;
     float: left;
-    margin: 204px 357px 204px 357px;
+    margin: 204px 357px;
 
 }
 
@@ -110,9 +108,7 @@ body {
 }
 
 .popup .inner {
-    width: 320px;
-    float: left;
-    margin: 0 110px 10px 110px;
+    margin: 0 110px;
 }
 
 .popup .line {
@@ -133,7 +129,7 @@ body {
 }
 
 
-#First_name, #Last_name, #Email, #Password, #Password_Confirm {
+.popup .forma .inp {
     width: 240px;
     padding: 10px 20px;
     background-color: #100f0f;
@@ -141,31 +137,10 @@ body {
     border: 0;
 }
 
-#First_name:focus {
+.popup .forma .inp:focus {
     background-color: #1b5288;
     box-shadow: 0 0 3px 1px #29B0D9;
 }
-
-#Last_name:focus {
-    background-color: #1b5288;
-    box-shadow: 0 0 3px 1px #29B0D9;
-}
-
-#Email:focus {
-    background-color: #1b5288;
-    box-shadow: 0 0 3px 1px #29B0D9;
-}
-
-#Password:focus {
-    background-color: #1b5288;
-    box-shadow: 0 0 3px 1px #29B0D9;
-}
-
-#Password_Confirm:focus {
-    background-color: #1b5288;
-    box-shadow: 0 0 3px 1px #29B0D9;
-}
-
 
 .popup .forma .submit {
     width: 150px;
